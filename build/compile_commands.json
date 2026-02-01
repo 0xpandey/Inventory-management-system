@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/Users/Om Pandey/Desktop/Project01/Inventory-management-system/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/ims.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\ims.dir\\src\\main.cpp.obj -c \"C:\\Users\\Om Pandey\\Desktop\\Project01\\Inventory-management-system\\src\\main.cpp\"",
+  "file": "C:/Users/Om Pandey/Desktop/Project01/Inventory-management-system/src/main.cpp",
+  "output": "CMakeFiles/ims.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/Om Pandey/Desktop/Project01/Inventory-management-system/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/ims.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\ims.dir\\src\\database\\Database.cpp.obj -c \"C:\\Users\\Om Pandey\\Desktop\\Project01\\Inventory-management-system\\src\\database\\Database.cpp\"",
+  "file": "C:/Users/Om Pandey/Desktop/Project01/Inventory-management-system/src/database/Database.cpp",
+  "output": "CMakeFiles/ims.dir/src/database/Database.cpp.obj"
+}
+]
