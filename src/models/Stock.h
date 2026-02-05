@@ -1,19 +1,23 @@
-//Stock.h will bridge between my db and code for stocks table
-
 #ifndef STOCK_H
 #define STOCK_H
-using namespace std;
+
+#include <string>
 
 class Stock {
 public:
-    int productId;     //ForeignKey → products.id
-    int quantity;      //Current available quantity
-    int threshold;     //Low stock alert level
+    int productId;
+    int quantity;
+    int threshold;
+    std::string updatedAt;
 
-    Stock(int productId, int quantity, int threshold = 5)
+    Stock(int productId,
+          int quantity,
+          int threshold,
+          const std::string& updatedAt)
         : productId(productId),
           quantity(quantity),
-          threshold(threshold) {}
+          threshold(threshold),
+          updatedAt(updatedAt) {}
 };
 
 #endif

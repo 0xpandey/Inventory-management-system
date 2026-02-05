@@ -58,14 +58,20 @@ void Database::initialize() {
     );
 
     execute(
-        "CREATE TABLE IF NOT EXISTS inventory_transactions ("
-        "id INTEGER PRIMARY KEY AUTOINCREMENT,"
-        "product_id INTEGER NOT NULL,"
-        "type TEXT CHECK (type IN ('BUY','SELL')),"
-        "quantity INTEGER NOT NULL,"
-        "unit_price REAL NOT NULL,"
-        "timestamp TEXT DEFAULT CURRENT_TIMESTAMP,"
-        "FOREIGN KEY (product_id) REFERENCES products(id)"
-        ");"
+        "CREATE TABLE IF NOT EXISTS transactions ("
+"id INTEGER PRIMARY KEY AUTOINCREMENT,"
+"product_id INTEGER,"
+"type TEXT,"
+"quantity INTEGER,"
+"price REAL,"
+"timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,"
+"FOREIGN KEY(product_id) REFERENCES products(id)"
+");"
+
     );
+    
 }
+sqlite3* Database::getDB() const {
+    return db;
+}
+

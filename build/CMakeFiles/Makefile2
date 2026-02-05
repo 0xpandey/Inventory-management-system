@@ -84,12 +84,12 @@ clean: CMakeFiles/ims.dir/clean
 CMakeFiles/ims.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ims.dir\build.make CMakeFiles/ims.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ims.dir\build.make CMakeFiles/ims.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\Om Pandey\Desktop\Project01\Inventory-management-system\build\CMakeFiles" --progress-num=1,2,3 "Built target ims"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\Om Pandey\Desktop\Project01\Inventory-management-system\build\CMakeFiles" --progress-num=1,2,3,4,5,6,7,8 "Built target ims"
 .PHONY : CMakeFiles/ims.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ims.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Om Pandey\Desktop\Project01\Inventory-management-system\build\CMakeFiles" 3
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Om Pandey\Desktop\Project01\Inventory-management-system\build\CMakeFiles" 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/ims.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Om Pandey\Desktop\Project01\Inventory-management-system\build\CMakeFiles" 0
 .PHONY : CMakeFiles/ims.dir/rule
@@ -101,7 +101,7 @@ ims: CMakeFiles/ims.dir/rule
 # codegen rule for target.
 CMakeFiles/ims.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ims.dir\build.make CMakeFiles/ims.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\Om Pandey\Desktop\Project01\Inventory-management-system\build\CMakeFiles" --progress-num=1,2,3 "Finished codegen for target ims"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\Om Pandey\Desktop\Project01\Inventory-management-system\build\CMakeFiles" --progress-num=1,2,3,4,5,6,7,8 "Finished codegen for target ims"
 .PHONY : CMakeFiles/ims.dir/codegen
 
 # clean rule for target.

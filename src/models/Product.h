@@ -1,22 +1,20 @@
-//Product.h will bridge between my db and code for products table
-
 #ifndef PRODUCT_H
 #define PRODUCT_H
-using namespace std;
+
 #include <string>
 
 class Product {
 public:
-    int id;                     
-    string name;           
-    string category;       
-    double price;               
-    bool isActive;             
-    string createdAt;     
+    int id;
+    std::string name;
+    std::string category;
+    double price;
+    bool isActive;
+    std::string createdAt;
 
-    //Constructor for new products
-    Product(const string& name,
-            const string& category,
+    // For creating a new product (before saving to DB)
+    Product(const std::string& name,
+            const std::string& category,
             double price)
         : id(-1),
           name(name),
@@ -24,13 +22,13 @@ public:
           price(price),
           isActive(true) {}
 
-    //Constructor for products loaded from DB
+    // For loading an existing product from DB
     Product(int id,
-            const string& name,
-            const string& category,
+            const std::string& name,
+            const std::string& category,
             double price,
             bool isActive,
-            const string& createdAt)
+            const std::string& createdAt)
         : id(id),
           name(name),
           category(category),

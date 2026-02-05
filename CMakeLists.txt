@@ -7,7 +7,15 @@ find_package(SQLite3 REQUIRED)
 
 add_executable(ims
     src/main.cpp
+
     src/database/Database.cpp
+
+    src/repository/ProductRepository.cpp
+    src/repository/StockRepository.cpp
+    src/repository/TransactionRepository.cpp
+
+    src/services/InventoryService.cpp
+    src/services/ReportService.cpp
 )
 
 target_include_directories(ims PRIVATE src)

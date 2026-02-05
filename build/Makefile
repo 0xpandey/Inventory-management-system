@@ -176,6 +176,126 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ims.dir\build.make CMakeFiles/ims.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/repository/ProductRepository.obj: src/repository/ProductRepository.cpp.obj
+.PHONY : src/repository/ProductRepository.obj
+
+# target to build an object file
+src/repository/ProductRepository.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ims.dir\build.make CMakeFiles/ims.dir/src/repository/ProductRepository.cpp.obj
+.PHONY : src/repository/ProductRepository.cpp.obj
+
+src/repository/ProductRepository.i: src/repository/ProductRepository.cpp.i
+.PHONY : src/repository/ProductRepository.i
+
+# target to preprocess a source file
+src/repository/ProductRepository.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ims.dir\build.make CMakeFiles/ims.dir/src/repository/ProductRepository.cpp.i
+.PHONY : src/repository/ProductRepository.cpp.i
+
+src/repository/ProductRepository.s: src/repository/ProductRepository.cpp.s
+.PHONY : src/repository/ProductRepository.s
+
+# target to generate assembly for a file
+src/repository/ProductRepository.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ims.dir\build.make CMakeFiles/ims.dir/src/repository/ProductRepository.cpp.s
+.PHONY : src/repository/ProductRepository.cpp.s
+
+src/repository/StockRepository.obj: src/repository/StockRepository.cpp.obj
+.PHONY : src/repository/StockRepository.obj
+
+# target to build an object file
+src/repository/StockRepository.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ims.dir\build.make CMakeFiles/ims.dir/src/repository/StockRepository.cpp.obj
+.PHONY : src/repository/StockRepository.cpp.obj
+
+src/repository/StockRepository.i: src/repository/StockRepository.cpp.i
+.PHONY : src/repository/StockRepository.i
+
+# target to preprocess a source file
+src/repository/StockRepository.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ims.dir\build.make CMakeFiles/ims.dir/src/repository/StockRepository.cpp.i
+.PHONY : src/repository/StockRepository.cpp.i
+
+src/repository/StockRepository.s: src/repository/StockRepository.cpp.s
+.PHONY : src/repository/StockRepository.s
+
+# target to generate assembly for a file
+src/repository/StockRepository.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ims.dir\build.make CMakeFiles/ims.dir/src/repository/StockRepository.cpp.s
+.PHONY : src/repository/StockRepository.cpp.s
+
+src/repository/TransactionRepository.obj: src/repository/TransactionRepository.cpp.obj
+.PHONY : src/repository/TransactionRepository.obj
+
+# target to build an object file
+src/repository/TransactionRepository.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ims.dir\build.make CMakeFiles/ims.dir/src/repository/TransactionRepository.cpp.obj
+.PHONY : src/repository/TransactionRepository.cpp.obj
+
+src/repository/TransactionRepository.i: src/repository/TransactionRepository.cpp.i
+.PHONY : src/repository/TransactionRepository.i
+
+# target to preprocess a source file
+src/repository/TransactionRepository.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ims.dir\build.make CMakeFiles/ims.dir/src/repository/TransactionRepository.cpp.i
+.PHONY : src/repository/TransactionRepository.cpp.i
+
+src/repository/TransactionRepository.s: src/repository/TransactionRepository.cpp.s
+.PHONY : src/repository/TransactionRepository.s
+
+# target to generate assembly for a file
+src/repository/TransactionRepository.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ims.dir\build.make CMakeFiles/ims.dir/src/repository/TransactionRepository.cpp.s
+.PHONY : src/repository/TransactionRepository.cpp.s
+
+src/services/InventoryService.obj: src/services/InventoryService.cpp.obj
+.PHONY : src/services/InventoryService.obj
+
+# target to build an object file
+src/services/InventoryService.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ims.dir\build.make CMakeFiles/ims.dir/src/services/InventoryService.cpp.obj
+.PHONY : src/services/InventoryService.cpp.obj
+
+src/services/InventoryService.i: src/services/InventoryService.cpp.i
+.PHONY : src/services/InventoryService.i
+
+# target to preprocess a source file
+src/services/InventoryService.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ims.dir\build.make CMakeFiles/ims.dir/src/services/InventoryService.cpp.i
+.PHONY : src/services/InventoryService.cpp.i
+
+src/services/InventoryService.s: src/services/InventoryService.cpp.s
+.PHONY : src/services/InventoryService.s
+
+# target to generate assembly for a file
+src/services/InventoryService.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ims.dir\build.make CMakeFiles/ims.dir/src/services/InventoryService.cpp.s
+.PHONY : src/services/InventoryService.cpp.s
+
+src/services/ReportService.obj: src/services/ReportService.cpp.obj
+.PHONY : src/services/ReportService.obj
+
+# target to build an object file
+src/services/ReportService.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ims.dir\build.make CMakeFiles/ims.dir/src/services/ReportService.cpp.obj
+.PHONY : src/services/ReportService.cpp.obj
+
+src/services/ReportService.i: src/services/ReportService.cpp.i
+.PHONY : src/services/ReportService.i
+
+# target to preprocess a source file
+src/services/ReportService.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ims.dir\build.make CMakeFiles/ims.dir/src/services/ReportService.cpp.i
+.PHONY : src/services/ReportService.cpp.i
+
+src/services/ReportService.s: src/services/ReportService.cpp.s
+.PHONY : src/services/ReportService.s
+
+# target to generate assembly for a file
+src/services/ReportService.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ims.dir\build.make CMakeFiles/ims.dir/src/services/ReportService.cpp.s
+.PHONY : src/services/ReportService.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -191,6 +311,21 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/repository/ProductRepository.obj
+	@echo ... src/repository/ProductRepository.i
+	@echo ... src/repository/ProductRepository.s
+	@echo ... src/repository/StockRepository.obj
+	@echo ... src/repository/StockRepository.i
+	@echo ... src/repository/StockRepository.s
+	@echo ... src/repository/TransactionRepository.obj
+	@echo ... src/repository/TransactionRepository.i
+	@echo ... src/repository/TransactionRepository.s
+	@echo ... src/services/InventoryService.obj
+	@echo ... src/services/InventoryService.i
+	@echo ... src/services/InventoryService.s
+	@echo ... src/services/ReportService.obj
+	@echo ... src/services/ReportService.i
+	@echo ... src/services/ReportService.s
 .PHONY : help
 
 

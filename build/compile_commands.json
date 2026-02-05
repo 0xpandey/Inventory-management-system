@@ -10,5 +10,35 @@
   "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/ims.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\ims.dir\\src\\database\\Database.cpp.obj -c \"C:\\Users\\Om Pandey\\Desktop\\Project01\\Inventory-management-system\\src\\database\\Database.cpp\"",
   "file": "C:/Users/Om Pandey/Desktop/Project01/Inventory-management-system/src/database/Database.cpp",
   "output": "CMakeFiles/ims.dir/src/database/Database.cpp.obj"
+},
+{
+  "directory": "C:/Users/Om Pandey/Desktop/Project01/Inventory-management-system/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/ims.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\ims.dir\\src\\repository\\ProductRepository.cpp.obj -c \"C:\\Users\\Om Pandey\\Desktop\\Project01\\Inventory-management-system\\src\\repository\\ProductRepository.cpp\"",
+  "file": "C:/Users/Om Pandey/Desktop/Project01/Inventory-management-system/src/repository/ProductRepository.cpp",
+  "output": "CMakeFiles/ims.dir/src/repository/ProductRepository.cpp.obj"
+},
+{
+  "directory": "C:/Users/Om Pandey/Desktop/Project01/Inventory-management-system/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/ims.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\ims.dir\\src\\repository\\StockRepository.cpp.obj -c \"C:\\Users\\Om Pandey\\Desktop\\Project01\\Inventory-management-system\\src\\repository\\StockRepository.cpp\"",
+  "file": "C:/Users/Om Pandey/Desktop/Project01/Inventory-management-system/src/repository/StockRepository.cpp",
+  "output": "CMakeFiles/ims.dir/src/repository/StockRepository.cpp.obj"
+},
+{
+  "directory": "C:/Users/Om Pandey/Desktop/Project01/Inventory-management-system/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/ims.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\ims.dir\\src\\repository\\TransactionRepository.cpp.obj -c \"C:\\Users\\Om Pandey\\Desktop\\Project01\\Inventory-management-system\\src\\repository\\TransactionRepository.cpp\"",
+  "file": "C:/Users/Om Pandey/Desktop/Project01/Inventory-management-system/src/repository/TransactionRepository.cpp",
+  "output": "CMakeFiles/ims.dir/src/repository/TransactionRepository.cpp.obj"
+},
+{
+  "directory": "C:/Users/Om Pandey/Desktop/Project01/Inventory-management-system/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/ims.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\ims.dir\\src\\services\\InventoryService.cpp.obj -c \"C:\\Users\\Om Pandey\\Desktop\\Project01\\Inventory-management-system\\src\\services\\InventoryService.cpp\"",
+  "file": "C:/Users/Om Pandey/Desktop/Project01/Inventory-management-system/src/services/InventoryService.cpp",
+  "output": "CMakeFiles/ims.dir/src/services/InventoryService.cpp.obj"
+},
+{
+  "directory": "C:/Users/Om Pandey/Desktop/Project01/Inventory-management-system/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/ims.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\ims.dir\\src\\services\\ReportService.cpp.obj -c \"C:\\Users\\Om Pandey\\Desktop\\Project01\\Inventory-management-system\\src\\services\\ReportService.cpp\"",
+  "file": "C:/Users/Om Pandey/Desktop/Project01/Inventory-management-system/src/services/ReportService.cpp",
+  "output": "CMakeFiles/ims.dir/src/services/ReportService.cpp.obj"
 }
 ]

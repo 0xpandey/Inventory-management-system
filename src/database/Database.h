@@ -19,6 +19,9 @@ public:
     bool open();
     void close();
     void initialize();
+
+    sqlite3* getDB() const;
+    
 };
 
 #endif

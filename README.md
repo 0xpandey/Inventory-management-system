@@ -8,14 +8,27 @@ The goal of this project is to demonstrate real-world C++ application developmen
 
 ---
 
-## ✨ Planned Features
-- Product management (add, update, delete)
-- Stock quantity tracking
-- Buy and sell transactions
-- Persistent storage using SQLite
-- Search, filter, and sort inventory
-- Sales and stock reports
-- Low-stock alerts
+## Features
+
+- Add new products with category and price
+- Track stock quantity with threshold alerts
+- Buy and sell stock with validation
+- Automatic transaction logging
+- Inventory report
+- Low stock alert report
+- Sales summary report
+- Transaction history
+- SQLite-based persistent storage
+
+
+## Architecture
+
+The project follows a layered architecture:
+- Models: Data structures (Product, Stock, Transaction)
+- Repository Layer: Handles all database operations (SQLite)
+- Service Layer: Business logic (Inventory & Reports)
+- Main/Menu Layer: User interaction and navigation
+
 
 ---
 
@@ -28,7 +41,23 @@ The goal of this project is to demonstrate real-world C++ application developmen
 ---
 
 ## 📂 Project Status
-🚧 Project under active development.
+## Folder Structure
+
+Inventory-management-system/
+│
+├── src/
+│   ├── database/        # Database connection and initialization
+│   ├── models/          # Entity models
+│   ├── repository/      # Database access layer
+│   ├── services/        # Business logic and reports
+│   └── main.cpp         # Menu-driven application
+│
+├── data/
+│   └── inventory.db     # SQLite database file
+│
+├── CMakeLists.txt
+├── README.md
+└── build/
 
 ---
 

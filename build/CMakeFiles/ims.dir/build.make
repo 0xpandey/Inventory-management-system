@@ -101,22 +101,107 @@ CMakeFiles/ims.dir/src/database/Database.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ims.dir/src/database/Database.cpp.s"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Om Pandey\Desktop\Project01\Inventory-management-system\src\database\Database.cpp" -o CMakeFiles\ims.dir\src\database\Database.cpp.s
 
+CMakeFiles/ims.dir/src/repository/ProductRepository.cpp.obj: CMakeFiles/ims.dir/flags.make
+CMakeFiles/ims.dir/src/repository/ProductRepository.cpp.obj: CMakeFiles/ims.dir/includes_CXX.rsp
+CMakeFiles/ims.dir/src/repository/ProductRepository.cpp.obj: C:/Users/Om\ Pandey/Desktop/Project01/Inventory-management-system/src/repository/ProductRepository.cpp
+CMakeFiles/ims.dir/src/repository/ProductRepository.cpp.obj: CMakeFiles/ims.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Om Pandey\Desktop\Project01\Inventory-management-system\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ims.dir/src/repository/ProductRepository.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ims.dir/src/repository/ProductRepository.cpp.obj -MF CMakeFiles\ims.dir\src\repository\ProductRepository.cpp.obj.d -o CMakeFiles\ims.dir\src\repository\ProductRepository.cpp.obj -c "C:\Users\Om Pandey\Desktop\Project01\Inventory-management-system\src\repository\ProductRepository.cpp"
+
+CMakeFiles/ims.dir/src/repository/ProductRepository.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ims.dir/src/repository/ProductRepository.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Om Pandey\Desktop\Project01\Inventory-management-system\src\repository\ProductRepository.cpp" > CMakeFiles\ims.dir\src\repository\ProductRepository.cpp.i
+
+CMakeFiles/ims.dir/src/repository/ProductRepository.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ims.dir/src/repository/ProductRepository.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Om Pandey\Desktop\Project01\Inventory-management-system\src\repository\ProductRepository.cpp" -o CMakeFiles\ims.dir\src\repository\ProductRepository.cpp.s
+
+CMakeFiles/ims.dir/src/repository/StockRepository.cpp.obj: CMakeFiles/ims.dir/flags.make
+CMakeFiles/ims.dir/src/repository/StockRepository.cpp.obj: CMakeFiles/ims.dir/includes_CXX.rsp
+CMakeFiles/ims.dir/src/repository/StockRepository.cpp.obj: C:/Users/Om\ Pandey/Desktop/Project01/Inventory-management-system/src/repository/StockRepository.cpp
+CMakeFiles/ims.dir/src/repository/StockRepository.cpp.obj: CMakeFiles/ims.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Om Pandey\Desktop\Project01\Inventory-management-system\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ims.dir/src/repository/StockRepository.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ims.dir/src/repository/StockRepository.cpp.obj -MF CMakeFiles\ims.dir\src\repository\StockRepository.cpp.obj.d -o CMakeFiles\ims.dir\src\repository\StockRepository.cpp.obj -c "C:\Users\Om Pandey\Desktop\Project01\Inventory-management-system\src\repository\StockRepository.cpp"
+
+CMakeFiles/ims.dir/src/repository/StockRepository.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ims.dir/src/repository/StockRepository.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Om Pandey\Desktop\Project01\Inventory-management-system\src\repository\StockRepository.cpp" > CMakeFiles\ims.dir\src\repository\StockRepository.cpp.i
+
+CMakeFiles/ims.dir/src/repository/StockRepository.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ims.dir/src/repository/StockRepository.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Om Pandey\Desktop\Project01\Inventory-management-system\src\repository\StockRepository.cpp" -o CMakeFiles\ims.dir\src\repository\StockRepository.cpp.s
+
+CMakeFiles/ims.dir/src/repository/TransactionRepository.cpp.obj: CMakeFiles/ims.dir/flags.make
+CMakeFiles/ims.dir/src/repository/TransactionRepository.cpp.obj: CMakeFiles/ims.dir/includes_CXX.rsp
+CMakeFiles/ims.dir/src/repository/TransactionRepository.cpp.obj: C:/Users/Om\ Pandey/Desktop/Project01/Inventory-management-system/src/repository/TransactionRepository.cpp
+CMakeFiles/ims.dir/src/repository/TransactionRepository.cpp.obj: CMakeFiles/ims.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Om Pandey\Desktop\Project01\Inventory-management-system\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ims.dir/src/repository/TransactionRepository.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ims.dir/src/repository/TransactionRepository.cpp.obj -MF CMakeFiles\ims.dir\src\repository\TransactionRepository.cpp.obj.d -o CMakeFiles\ims.dir\src\repository\TransactionRepository.cpp.obj -c "C:\Users\Om Pandey\Desktop\Project01\Inventory-management-system\src\repository\TransactionRepository.cpp"
+
+CMakeFiles/ims.dir/src/repository/TransactionRepository.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ims.dir/src/repository/TransactionRepository.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Om Pandey\Desktop\Project01\Inventory-management-system\src\repository\TransactionRepository.cpp" > CMakeFiles\ims.dir\src\repository\TransactionRepository.cpp.i
+
+CMakeFiles/ims.dir/src/repository/TransactionRepository.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ims.dir/src/repository/TransactionRepository.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Om Pandey\Desktop\Project01\Inventory-management-system\src\repository\TransactionRepository.cpp" -o CMakeFiles\ims.dir\src\repository\TransactionRepository.cpp.s
+
+CMakeFiles/ims.dir/src/services/InventoryService.cpp.obj: CMakeFiles/ims.dir/flags.make
+CMakeFiles/ims.dir/src/services/InventoryService.cpp.obj: CMakeFiles/ims.dir/includes_CXX.rsp
+CMakeFiles/ims.dir/src/services/InventoryService.cpp.obj: C:/Users/Om\ Pandey/Desktop/Project01/Inventory-management-system/src/services/InventoryService.cpp
+CMakeFiles/ims.dir/src/services/InventoryService.cpp.obj: CMakeFiles/ims.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Om Pandey\Desktop\Project01\Inventory-management-system\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ims.dir/src/services/InventoryService.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ims.dir/src/services/InventoryService.cpp.obj -MF CMakeFiles\ims.dir\src\services\InventoryService.cpp.obj.d -o CMakeFiles\ims.dir\src\services\InventoryService.cpp.obj -c "C:\Users\Om Pandey\Desktop\Project01\Inventory-management-system\src\services\InventoryService.cpp"
+
+CMakeFiles/ims.dir/src/services/InventoryService.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ims.dir/src/services/InventoryService.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Om Pandey\Desktop\Project01\Inventory-management-system\src\services\InventoryService.cpp" > CMakeFiles\ims.dir\src\services\InventoryService.cpp.i
+
+CMakeFiles/ims.dir/src/services/InventoryService.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ims.dir/src/services/InventoryService.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Om Pandey\Desktop\Project01\Inventory-management-system\src\services\InventoryService.cpp" -o CMakeFiles\ims.dir\src\services\InventoryService.cpp.s
+
+CMakeFiles/ims.dir/src/services/ReportService.cpp.obj: CMakeFiles/ims.dir/flags.make
+CMakeFiles/ims.dir/src/services/ReportService.cpp.obj: CMakeFiles/ims.dir/includes_CXX.rsp
+CMakeFiles/ims.dir/src/services/ReportService.cpp.obj: C:/Users/Om\ Pandey/Desktop/Project01/Inventory-management-system/src/services/ReportService.cpp
+CMakeFiles/ims.dir/src/services/ReportService.cpp.obj: CMakeFiles/ims.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Om Pandey\Desktop\Project01\Inventory-management-system\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ims.dir/src/services/ReportService.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ims.dir/src/services/ReportService.cpp.obj -MF CMakeFiles\ims.dir\src\services\ReportService.cpp.obj.d -o CMakeFiles\ims.dir\src\services\ReportService.cpp.obj -c "C:\Users\Om Pandey\Desktop\Project01\Inventory-management-system\src\services\ReportService.cpp"
+
+CMakeFiles/ims.dir/src/services/ReportService.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ims.dir/src/services/ReportService.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Om Pandey\Desktop\Project01\Inventory-management-system\src\services\ReportService.cpp" > CMakeFiles\ims.dir\src\services\ReportService.cpp.i
+
+CMakeFiles/ims.dir/src/services/ReportService.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ims.dir/src/services/ReportService.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Om Pandey\Desktop\Project01\Inventory-management-system\src\services\ReportService.cpp" -o CMakeFiles\ims.dir\src\services\ReportService.cpp.s
+
 # Object files for target ims
 ims_OBJECTS = \
 "CMakeFiles/ims.dir/src/main.cpp.obj" \
-"CMakeFiles/ims.dir/src/database/Database.cpp.obj"
+"CMakeFiles/ims.dir/src/database/Database.cpp.obj" \
+"CMakeFiles/ims.dir/src/repository/ProductRepository.cpp.obj" \
+"CMakeFiles/ims.dir/src/repository/StockRepository.cpp.obj" \
+"CMakeFiles/ims.dir/src/repository/TransactionRepository.cpp.obj" \
+"CMakeFiles/ims.dir/src/services/InventoryService.cpp.obj" \
+"CMakeFiles/ims.dir/src/services/ReportService.cpp.obj"
 
 # External object files for target ims
 ims_EXTERNAL_OBJECTS =
 
 ims.exe: CMakeFiles/ims.dir/src/main.cpp.obj
 ims.exe: CMakeFiles/ims.dir/src/database/Database.cpp.obj
+ims.exe: CMakeFiles/ims.dir/src/repository/ProductRepository.cpp.obj
+ims.exe: CMakeFiles/ims.dir/src/repository/StockRepository.cpp.obj
+ims.exe: CMakeFiles/ims.dir/src/repository/TransactionRepository.cpp.obj
+ims.exe: CMakeFiles/ims.dir/src/services/InventoryService.cpp.obj
+ims.exe: CMakeFiles/ims.dir/src/services/ReportService.cpp.obj
 ims.exe: CMakeFiles/ims.dir/build.make
 ims.exe: C:/msys64/ucrt64/lib/libsqlite3.dll.a
 ims.exe: CMakeFiles/ims.dir/linkLibs.rsp
 ims.exe: CMakeFiles/ims.dir/objects1.rsp
 ims.exe: CMakeFiles/ims.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\Om Pandey\Desktop\Project01\Inventory-management-system\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ims.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\Om Pandey\Desktop\Project01\Inventory-management-system\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable ims.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ims.dir\link.txt --verbose=$(VERBOSE)
 	"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/Om Pandey/Desktop/Project01/Inventory-management-system/data"
 

@@ -1,1 +1,1 @@
-CMakeFiles/ims.dir/src/main.cpp.obj CMakeFiles/ims.dir/src/database/Database.cpp.obj
+CMakeFiles/ims.dir/src/main.cpp.obj CMakeFiles/ims.dir/src/database/Database.cpp.obj CMakeFiles/ims.dir/src/repository/ProductRepository.cpp.obj CMakeFiles/ims.dir/src/repository/StockRepository.cpp.obj CMakeFiles/ims.dir/src/repository/TransactionRepository.cpp.obj CMakeFiles/ims.dir/src/services/InventoryService.cpp.obj CMakeFiles/ims.dir/src/services/ReportService.cpp.obj
